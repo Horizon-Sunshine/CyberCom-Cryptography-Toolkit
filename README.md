@@ -1,7 +1,6 @@
 # 🛡️ CyberCom Cryptography Toolkit
 
-A modular, educational cybersecurity toolkit featuring multiple encryption, decryption, and attack simulation utilities, powered by a graphical user interface (GUI).  
-Developed by Ben Cohen, Ofek Shemesh, and Ben Zion.
+A modular, educational cybersecurity toolkit featuring multiple encryption, decryption, and attack simulation utilities, powered by a graphical user interface (GUI).
 
 ---
 
