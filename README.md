@@ -1,54 +1,54 @@
-# CyberCom Cryptography Toolkit
+# 🛡️ CyberCom Cryptography Toolkit
 
 A modular, educational cybersecurity toolkit featuring multiple encryption, decryption, and attack simulation utilities, powered by a graphical user interface (GUI).  
 Developed by Ben Cohen, Ofek Shemesh, and Ben Zion.
 
 ---
 
-### Overview
+## 🚀 What is CyberCom?
 
-This application provides a unified GUI for performing several classic cybersecurity tasks and cryptographic algorithms.  
+**CyberCom** provides a unified GUI for performing several classic cybersecurity tasks and cryptographic algorithms.  
 It is designed for laboratory exercises, demonstrations, and learning scenarios in cyber and information security education.
 
 ---
 
-### Features
+### ✨ Features
 
-- **Fake Data Generation**  
+- **🧑‍💻 Fake Data Generation**
   Create realistic, localized fake identities for testing and demos using the Faker library.  
   Supported locales: `en_US`, `he_IL`, `ja_JP`, `it_IT`.
 
-- **Keyword Search in Source Code**  
+- **🕵️ Keyword Search in Source Code**
   Scan web page source code for specific keywords using HTTP requests.
 
-- **Encryption Utilities**  
+- **🔒 Encryption Utilities**
   - Fernet symmetric encryption/decryption (random key)  
   - SHA256 hashing
 
-- **Caesar Cipher**  
+- **🗝️ Caesar Cipher**
   - Table-based brute-force deciphering
 
-- **Vigenère Cipher**  
+- **🧩 Vigenère Cipher**
   - Generate brute-force decryption tables with configurable key and jump values
 
-- **Subset Sum (MSSP) Decryption**  
+- **📦 Subset Sum (MSSP) Decryption**
   - Attempt decryption on Multiple Subset Sum Problem (MSSP) formatted ciphertext
 
-- **DDoS Simulation**  
+- **🌐 DDoS Simulation**
   - Multi-threaded socket-based attack utility for demonstration/testing (educational use only)
 
 Each feature is accessible through dedicated tabs inside the intuitive `tkinter` GUI.
 
 ---
 
-### Installation
+### 🔧 Getting Started
 
 #### Requirements
 
 Install these Python packages before running the project:
 pip install tkinter requests faker cryptography
 
-#### How to Run
+#### Launching the App
 
 Simply execute:
 python Final_Project_CyberCom.py
@@ -57,7 +57,7 @@ The main window will appear, providing tabbed access to all modules.
 
 ---
 
-### Usage
+### 🎯 Usage
 
 - **Select the desired tab (Faker, Requests, Encryption, Caesar, Vigenère, MSSP, DDoS)**
 - Enter the relevant information in the form fields
@@ -66,7 +66,7 @@ The main window will appear, providing tabbed access to all modules.
 
 ---
 
-### Architecture
+### 🧩 Architecture
 
 - Object-oriented and modular design for clear separation of cryptographic and utility functions  
 - All main logic and GUI wiring are in a single file for simplicity  
@@ -74,14 +74,14 @@ The main window will appear, providing tabbed access to all modules.
 
 ---
 
-### License
+### 📜 License
 
 This project is intended for academic and educational use.  
 Use responsibly and do not deploy attack modules on unauthorized networks.
 
 ---
 
-### Acknowledgements
+### 🙏 Acknowledgements
 
 - Python standard libraries  
 - Open-source packages: `tkinter`, `requests`, `faker`, `cryptography`
