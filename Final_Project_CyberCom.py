@@ -8,9 +8,6 @@ import socket
 import threading
 
 
-#TODO: Submitted by: Ben Cohen - 208464487, Ofek Shemesh - 313559601, Ben Zion - 201561420
-
-
 #Global variables
 ddos_running = False
 
@@ -321,3 +318,4 @@ ttk.Button(ddos_tab, text="Stop Attack", command=stop_ddos).pack()
 
 
 root.mainloop()
+
